@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    background: #8ec5fc;
+    height: 100vh;
+
+    
+}
+.container{
+    padding: 40px;
+    border: 3px solid grey;
+    border-radius:30px;
+}
+input[type=text]{
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    border: 2px solid #eee;
+
+}
+input[type=password]{
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    border: 2px solid #eee;
+    
+}
+input[type=email]{
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    border: 2px solid #eee;
+}
+p{
+    text-transform: uppercase;
+    margin: 5px 0 5px 0;
+}
+input[type=radio]{
+    
+        padding: 50px;
+        margin: 5px 0;
+        box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+        border: 2px solid #eee;
+    
+}
+input[type=file]{
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.0.6);
+    border-radius: 10px;
+    border: 2px solid #eee;
+    }
+    button{
+        background-color: #4caf50;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 30px;
+        margin: 2px 4px;
+    }
+
+    ::placeholder{
+        color: green;
+    }
+
+
+
